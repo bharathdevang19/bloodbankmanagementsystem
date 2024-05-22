@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Bank Management System</title>
+    <link rel="stylesheet" href="mainstyles.css">
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('home').addEventListener('click', function() {
+                window.location.href = 'main.html'; 
+            });
+             
+            document.getElementById('login').addEventListener('click', function() {
+                window.location.href = 'login.html';
+            });
+            document.getElementById('create-account').addEventListener('click', function() {
+                window.location.href = 'createaccount.html';
+            });
+        });
+    </script>
+</head>
+<body>
+   
+    <header>
+        <div class="logo">Logo</div>
+        <nav>
+            <ul>
+                <li><a id="home" href="#">Home</a></li>
+                <li><a href="#">Donate Blood</a></li>
+                <li><a href="#">Request Blood</a></li>
+                <li><a id="login" href="#">Login</a></li>
+                <li><a id="create-account" href="#">Create Account</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="welcome">
+        <h1>Welcome to the Blood Bank</h1>
+        <p>Quick links to key sections</p>
+    </section>
+
+    <footer>
+        <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </footer>
+
+</body>
+</html>
